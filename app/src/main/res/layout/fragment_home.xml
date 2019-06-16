@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="40dp"
+            android:text="BOZOK ÜNİVERSİTESİ"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="311dp"
+            android:layout_height="236dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/kapakfoto" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/as" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="70dp"
+            android:text="KÜTÜPHANE OTOMASYONU" />
+<ScrollView
+    android:layout_width="400dp"
+    android:layout_height="170dp"
+    android:layout_marginTop="410dp"
+    >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="4000dp"
+
+            android:layout_marginLeft="30dp"
+            android:text="Yozgat Bozok Üniversitesi Merkez Kütüphanesi hakkında…
+Yozgat Bozok Üniversitesinin 1 Mart 2006 tarih ve 5467 sayılı kanunla kurulmasından sonra Kütüphane ve Dokümantasyon Daire Başkanlığımız oluşturularak çalışmalarına başlamıştır.İlk aşamada dağınık bir şekilde oluşturulmuş olan fakülte kütüphanelerindeki kaynakların kayıt altına alınması amaçlanmış ve bu doğrultuda Yordam kütüphane programı alınarak kütüphane otomasyon çalışmalarına başlanmıştır.İkinci aşama olarak fakülte kütüphaneleri Enstitüler binasının üst katındaki 150 m2 lik alana taşınmış ve burada Anglo Amerika Kataloglama Kuralları (AACR2) ve Kongre Kütüphanesi Sınıflama Sistemi (LCCS)' ne göre tasnif edilerek kitaplar  açık raf sistemine dayalı 100 okuyucu kapasiteli merkezi bir kütüphanede hizmet vermeye başlamıştır.2009 Temmuz ayında Kütüphane ve Bilgi İşlem Merkezi binasının tamamlanmasıyla içerisinde Genel Okuma Salonu , İnternet Salonu ,Kullanıcı Dinlenme Salonu , Süreli Yayınlar Salonu , Görsel İşitsel Materyal Salonu ve Karellerin bulunduğu toplam 6076 m2 lik alanda 400 kişi kapasiteli yeni binasında  modern anlamda kütüphanecilik anlayışı ile çalışmalarına hız vermiştir.
+2017 Yılı itibariyle Yozgat Bozok Üniversitesi Merkez Kütüphane koleksiyonunda 37000 basılı kitap, yaklaşık 700 süreli yayın, 2000 bitirme tezi ve 300 görsel işitsel materyal yer almaktadır. Basılı kitapların tamamı internet ortamından taranabilmekte, danışma kaynakları dışındaki bütün kitaplar üniversite öğrenci ve personeline ödünç verilmektedir.
+Yozgat Bozok Üniversitesi  Merkez Kütüphanesi Akademisyenlerinin bilimsel araştırmalarını desteklemek amacıyla elektronik dergi ve elektronik kitap hizmeti sağlamaktadır. Bu doğrultuda ULAKBİM _EKUAL veri tabanlarına bağlanılmış ayrıca üniversitemizin kendi kaynaklarıyla ANKOS (Anadolu Kütüphaneleri konsorsiyumu) aracılığıyla  veri tabanı alımı gerçekleştirilmiştir.  Kampüs içerisinden internet ortamı üzerinden yararlanılabilen elektronik kaynakların sayısı her geçen yıl artmaktadır. Proxy ayarları düzenlenerek kampüs dışından da erişim sağlanmaktadır.
+Genel Okuma Salonu:
+Açık raf sistemine göre dizilmiş  içerisinde danışma kaynakları ve genel koleksiyonun bulunduğu  genel okuma salonunda  araştırmacılar haftanın 6 günü kütüphanenin açık olduğu saatlerde araştırmalarını yapabilir ödünç hizmetinden yararlanabilirler.
+Görsel-İşitsel Materyal Salonu:
+Kullanıcı isteklerine cevap vermek maksadıyla oluşturulan film, belgesel, müzik şiir  türlerinde CD, DVD ve VCD koleksiyonlarının bulunduğu bu salonda kullanıcılar  salon dışına çıkarmamak kaydıyla bu koleksiyonlardan faydalanabilirler.Görsel İşitsel Materyaller ödünç verilmemektedir.
+Süreli Yayınlar Salonu ve Kareller:
+Süreli Yayınlar salonu Türkiye genelinde periyodik olarak yayın yapan 100 ün üzerindeki süreli ve üniversite yayınlarıyla kullanıcılarına hizmet vermektedir. Kullanıcılar dilerlerse Süreli Yayınları bu kattaki oturma alanlarında kullanabilirler ve fotokopi hizmetinden yararlanabilirler.
+Kareller Akademisyenlere ve Yüksek Lisans Öğrencilerine talep etmeleri doğrultusunda belirli dönemlerde çalışma amaçlı olarak tahsis edilir.
+İnternet Salonu:
+60 kullanıcılı kapasiteli internet salonumuz kullanıcılarımızın elektronik kaynaklara erişimleri ve interneti  kullanabilmeleri için kütüphanenin açık olduğu saatlerde hizmet vermektedir.
+Konferans Salonu:
+Yozgat Bozok Üniversitesi Merkez Kütüphanesinin oryantasyon çalışmalarını yürütmek, veri tabanı eğitimleri düzenlemek ve gerektiğinde üniversitemizin diğer birimlerinin eğitim,seminer  faaliyetlerinde kullanılmak üzere Konferans Salonumuz hizmet vermektedir." />
+</ScrollView>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
